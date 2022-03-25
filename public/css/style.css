@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+a, p, h1, h2, h3, button{
+    color: white;
+}
+
+body {
+    background-color: #15161B;
+    font-family: 'Oswald', sans-serif;
+   
+
+}
+
+header {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+header h1 {
+    font-weight: 800;
+}
+
+header h1 span {
+    color: #1A7993;
+    font-weight: 800;
+}
+header ul {
+    display: flex;
+    gap: 50px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+}
+
+
+.landing-page {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.landing-page h1 {
+    font-size: 3rem;
+    line-height: 50px;
+    letter-spacing: 2.3px;
+
+    font-weight: 600;
+}
+
+.landing-page h3 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    opacity: 70%;
+}
+
+.landing-page a {
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 2rem;
+    background-color: #1A7993;
+    padding: 10px 70px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    transition: 0.7s;
+}
+.landing-page a:hover{
+    background-color: #0295be73;
+}
+.content-img img {
+    width: 500px;
+}
+
+/* cards */
+.section-cards{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.section-cards h1 {
+    text-transform: uppercase;
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-cards .cards {
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.card {
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 180px;
+    background-color: #2C2F37;
+    transition: 0.7s;
+}
+.card:hover{
+    background-color: #1A7993;
+}
+.card img{
+    width: 70px;
+}
+.card h3{
+    margin-top: 6px;
+}
+
+.section2{
+    margin-top: 0px;
+    background-color: #1A7993;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section2 .content-text h1{
+    letter-spacing: 2.5px;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.section2 .content-text p{
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 50px;
+   
+}
+
+.section2 .content-text a{
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 60px;
+    border-radius: 6px;
+    transition: 0.7s;
+
+}
+.section2 .content-text a:hover{
+    background-color: rgb(153, 153, 153);
+
+}
+
+.section2 img{
+    width: 300px;
+    
+}
+
+
+.section3 h1{
+ font-size: 2rem;
+}
+
+.section3 .conteiner-input{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner-input .inputs-conteiner{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-conteiner input{
+    border: none;
+    outline: none;
+    padding: 25px 200px 25px 2px;
+    border-radius: 4px;
+}
+.inputs-conteiner input:first-child{
+
+    margin-bottom: 10px;
+}
+input::placeholder{
+    color: black;
+    opacity: 70%;
+}
+button{
+    font-weight: 800;
+    margin-top: 30px;
+    border: none;
+    background-color: #1A7993;
+    padding: 15px 126px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+button:hover{
+    background-color: #0295be73;
+}
+.redes{
+    margin-top: 60px;
+}
+
+
+/* mobile */
+
+@media (max-width: 600px){
+
+    
+    .landing-page{
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .landing-page img{
+        margin-top: 20px;
+        width: 80%;
+    }
+    .section-cards{
+
+        margin-bottom: 40rem;
+    }
+    .section-cards h1{
+        margin-bottom: 20px;    
+    }
+
+    
+    .section-cards .cards{
+        margin-top: 0px;
+       display: flex;
+       flex-direction: column;
+    }
+    .section2{
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .section2 img{
+        padding: 30px;
+       
+        
+    }
+    .section3 h1{
+        font-size: 1.6rem;
+    }
+
+}
