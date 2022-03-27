@@ -17,7 +17,6 @@
 </p>
 <hr>
 <div align="center">
-  <img src="https://prnt.sc/PzvucHZiT49g"/>
   
 </div>
 <p>Website made to train HTML, CSS AND JS ( Template engine )</p>
