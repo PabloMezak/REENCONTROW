@@ -19,5 +19,5 @@
 <div align="center">
   
 </div>
-<p>Website made to train HTML, CSS AND JS ( Template engine )</p>
+<p>Website made to train HTML, CSS AND EJS ( Template engine )</p>
 
